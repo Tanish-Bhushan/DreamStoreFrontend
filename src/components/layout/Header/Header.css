@@ -1,0 +1,91 @@
+.navbar {
+  width: 98%;
+  display: flex;
+  justify-content: space-between;
+  font-family: NikeTg;
+  font-weight: lighter;
+  min-height: 5vmax;
+  overflow: hidden;
+}
+.logo {
+  width: 20%;
+  margin: 0.7vmax;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.logo img {
+  width: 7vmax;
+  margin-left: 1vmax;
+}
+.logo img:hover {
+  transform: scale(1.2);
+}
+
+.links {
+  width: 30%;
+  margin: 1vmax;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.links ul {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+ul {
+  text-decoration: none;
+}
+.extras {
+  display: flex;
+  justify-content: right;
+  width: 10%;
+  margin: 1vmax;
+  cursor: pointer;
+  color: gray;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.extras span {
+  margin-right: 2vmax;
+}
+.login {
+  color: rgb(255, 33, 33);
+}
+.loginOut {
+  width: 20%;
+  text-align: right;
+  margin-right: 1vmax;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.speedDialIcon {
+  width: 2vmax;
+  height: 2vmax;
+  border-radius: 100%;
+}
+
+
+@media screen and (max-width: 600px) {
+  .navbar {
+    display: block;
+    text-align: center;
+    justify-content: center;
+  }
+  .logo {
+    width: 100%;
+  }
+  .extras {
+    width: 99%;
+    justify-content: center;
+  }
+  .links {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .loginOut{
+    width: 90%;
+    
+  }
+}

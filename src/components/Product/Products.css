@@ -1,0 +1,66 @@
+.productsHeading {
+  margin: 2vmax auto;
+  width: 15vw;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.171);
+  padding: 2vmax;
+  color: rgba(0, 0, 0, 0.678);
+  font: 500 1.5vmax NikeTg;
+  text-align: center;
+}
+.containerBox {
+  display: flex;
+}
+.products {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.filterBox {
+  width: 20%;
+  margin: 2vmax;
+}
+.MuiPagination-ul {
+  justify-content: center;
+}
+
+.categoryBox {
+  padding: 0;
+}
+.category-link {
+  list-style: none;
+  color: gray;
+  font: 400 0.8vmax HelveticaMd;
+  cursor: pointer;
+  margin: 0.4vmax;
+}
+.category-link:hover {
+  color: black;
+}
+.filterBox fieldset {
+  border: 2px solid rgba(128, 128, 128, 0.477);
+  border-radius: 10px;
+}
+.MuiSlider-thumb {
+  height: 24;
+  width: 24;
+  background-color: "#fff";
+  border: "2px solid currentColor";
+}
+
+.noProducts {
+  text-align: center;
+  color: gray;
+  font: 100 1.5vmax Helvetica;
+}
+@media screen and (max-width: 600px) {
+  .containerBox {
+    flex-direction: column;
+  }
+  .filterBox {
+    width: 80%;
+    margin: auto;
+  }
+  .category-link {
+    font-size: 1.4vmax;
+  }
+}

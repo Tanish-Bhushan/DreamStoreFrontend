@@ -1,0 +1,198 @@
+.ProductDetails {
+  width: 95vw;
+  padding: 3vmax;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.detailsDiv {
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: left;
+  padding: 2vmax;
+}
+
+.imageDiv {
+  width: 50vw;
+  text-align: center;
+}
+.CarouselImage {
+  height: 35vmax;
+}
+
+.detailsBlock-1 h2 {
+  font: 600 2vmax NikeTg;
+  color: rgb(54, 54, 54);
+}
+.detailsBlock-1 p {
+  font: 200 0.8vmax HelveticaMd;
+  color: rgba(54, 54, 54, 0.582);
+}
+.detailsBlock-2 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1vmax 0;
+}
+
+.detailsBlock-2 span {
+  font: 200 0.8vmax HelveticaMd;
+  color: rgba(54, 54, 54, 0.582);
+}
+
+.detailsBlock-3 {
+  width: 70%;
+}
+.detailsBlock-3 h1 {
+  color: rgba(54, 54, 54, 0.582);
+  font: 400 1.8vmax NikeTg;
+  margin: 1vmax 0;
+}
+.detailsBlock-3-1 {
+  display: flex;
+}
+.detailsBlock-3-1-1 button {
+  border: none;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.85);
+  padding: 0.5vmax;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.detailsBlock-3-1-1 button:hover {
+  background-color: rgba(0, 0, 0, 0.95);
+}
+.detailsBlock-3-1-1 input {
+  border: none;
+  padding: 0.5vmax;
+  width: 1vmax;
+  text-align: center;
+  outline: none;
+  font: 400 0.8vmax NikeTg;
+  color: rgba(0, 0, 0, 0.85);
+}
+.cartBtn {
+  border: none;
+  cursor: pointer;
+  color: white;
+  transition: all 0.5s;
+  background-color: rgb(37, 37, 37);
+  font: 500 0.9vmax NikeTg;
+  border-radius: 20px;
+  padding: 0.5vmax 1.5vmax;
+  margin-left: 1vmax;
+  outline: none;
+}
+.cartBtn:hover {
+  background-color: black;
+}
+
+.detailsBlock-3 p {
+  padding: 1vmax 0;
+  color: rgba(0, 0, 0, 0.651);
+  font: 400 1vmax HelveticaMd;
+  margin: 1vmax 0;
+}
+
+.detailsBlock-4 {
+  color: rgba(0, 0, 0, 0.8);
+  font: 500 1.2vmax Helvetica;
+}
+
+.detailsBlock-4 p {
+  color: rgba(0, 0, 0, 0.6);
+  font: 500 0.8vmax Helvetica;
+}
+
+.submitReview {
+  width: 30%;
+  border: none;
+  cursor: pointer;
+  color: white;
+  transition: all 0.5s;
+  background-color: rgb(37, 37, 37);
+  font: 500 0.9vmax NikeTg;
+  border-radius: 20px;
+  padding: 0.5vmax 1.5vmax;
+  outline: none;
+}
+.submitReview:hover {
+  background-color: black;
+  transform: scale(1.1);
+}
+.reviews {
+ justify-content: center;
+}
+.reviewHeading {
+  color: #363636;
+  font: 500 1.4vmax NikeTg;
+  text-align: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.444);
+  padding: 1vmax;
+  width: 20vmax;
+  margin: auto;
+  margin-bottom: 4vmax;
+}
+.reviewCard {
+  flex: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.444);
+  border: 1px solid rgba(56, 56, 56, 0.116);
+  width: 30vmax;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5vmax;
+  padding: 3vmax;
+  margin-left: auto;
+  margin-right: auto;
+}
+.reviewCard img {
+  width: 5vmax;
+}
+.reviewCard p {
+  color: rgba(0, 0, 0, 0.8);
+  font: 600 0.9vmax HelveticaMd;
+}
+.reviewCard span {
+  color: rgba(0, 0, 0, 0.4);
+  font: 300 0.8vmax Helvetica;
+}
+.noReviews {
+  font: 400 1.3vmax Helvetica;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+@media screen and (max-width: 600px) {
+  .ProductDetails {
+    display: block;
+  }
+  .imageDiv {
+    width: 100%;
+  }
+  .detailsDiv {
+    width: 90%;
+    text-align: center;
+    justify-content: center;
+  }
+  .detailsBlock-2 {
+    justify-content: center;
+    text-align: center;
+  }
+  .detailsBlock-3 {
+    width: 100%;
+    justify-content: center;
+  }
+  .detailsBlock-3-1 {
+    justify-content: center;
+    text-align: center;
+  }
+  .submitReview {
+    margin: 1vmax;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

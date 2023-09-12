@@ -1,0 +1,18 @@
+.aboutMyself,
+.aboutCompany {
+  margin: 2vmax;
+  display: flex;
+  gap: 3vmax;
+  font: 100 0.9vmax Helvetica;
+  color: rgb(84, 83, 83);
+}
+
+.logo1 img {
+  width: 13vmax;
+}
+.features,
+.aboutGoal {
+  margin: 2vmax;
+  font: 100 0.8vmax Helvetica;
+  color: rgb(170, 170, 170);
+}

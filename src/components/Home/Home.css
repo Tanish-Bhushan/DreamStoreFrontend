@@ -1,0 +1,98 @@
+/* color schemes
+dark #333333
+main #fdb827
+light  #f1f1f1;*/
+
+.banner {
+  align-items: center;
+  justify-content: center;
+  color: black;
+  overflow: hidden;
+}
+.banner div img {
+  width: 100vmax;
+  background-position: center;
+  object-fit: cover;
+}
+
+.homeHeading {
+  text-align: center;
+  font-family: NikeTg;
+  font-size: 1.4vmax;
+  border-bottom: 1px solid rgba(21, 21, 21, 0.5);
+  width: 20vmax;
+  padding: 1vmax;
+  margin: 5vmax auto;
+  color: rgb(0, 0, 0, 0.7);
+}
+.container {
+  display: flex;
+  margin: 2vmax auto;
+  width: 99vw;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 100%;
+}
+.productCard {
+  width: 17vmax;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: rgb(50, 50, 50);
+  margin: 2vmax;
+  transition: all 0.5s;
+  padding-bottom: 0.5vmax;
+  border-radius: 10px;
+}
+.imgcnt {
+  height: 60%;
+}
+.productCard img {
+  width: 17vmax;
+  margin-bottom: 1vmax;
+}
+
+.productCard div {
+  display: flex;
+  align-items: flex-start;
+}
+.space {
+  margin-top: 2vmax;
+}
+.productCard div span {
+  color: rgb(0, 0, 0, 0.7);
+  margin-top: auto;
+  margin-bottom: auto;
+  font: 300 1vmax Helvetica;
+  text-align: right;
+  width: 100%;
+}
+.productCard p {
+  font-family: NikeTg;
+  font-size: 1.2vmax;
+  margin: 1vmax 0.5vmax;
+  margin-bottom: 0;
+}
+
+.productCard span {
+  margin: 0.5vmax;
+  color: black;
+  font-family: HelveticaMd;
+  font-size: 1vmax;
+}
+.productCard:hover {
+  box-shadow: 0 0 5px rgba(15, 15, 15, 0.26);
+  transform: translateY(-1vmax);
+}
+
+@media screen and (max-width: 600px) {
+  .productCard p {
+    margin: 0;
+    margin-left: 0.3vmax;
+    display: block;
+  }
+  .productCard span {
+    font-size: 1.5vmax;
+  }
+}
+/* 2001640100277 Sw@yam1 */

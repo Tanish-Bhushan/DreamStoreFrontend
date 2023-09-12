@@ -1,0 +1,74 @@
+.profileBg {
+  background-image: url("../../images/profileBg.png");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  padding: 2vmax;
+  background-repeat: no-repeat;
+  width: 100vw;
+  position: fixed;
+}
+.profileContainer {
+  padding: 2vmax;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  display: flex;
+  margin-top: 2vmax;
+  background-color: rgba(255, 255, 255, 0.507);
+}
+.profileContainer h1,
+.profileContainer h4 {
+  font-family: NikeTg;
+}
+.profileContainer h1 {
+  margin-bottom: 2vmax;
+}
+.profilePic {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin: 1vmax;
+  justify-content: space-between;
+}
+.profileContainer a {
+  margin-top: 2vmax;
+  display: block;
+  width: 90%;
+  padding: 0.5vmax;
+  border: 1px solid black;
+  text-align: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.93);
+  font-family: Helvetica;
+}
+.profilePic img {
+  width: 25vmax;
+  height: 20vmax;
+}
+.details {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.details h4{
+  font-size: 1.5vmax;
+}
+.details div {
+  margin: 1vmax;
+}
+.details p {
+  font: 100 2vmax Helvetica;
+  color: rgba(52, 52, 52, 0.861);
+}
+@media screen and (max-width: 700px) {
+  .profileContainer {
+    display: block;
+  }
+  .profilePic,
+  .details {
+    width: 100%;
+    text-align: center;
+  }
+}
